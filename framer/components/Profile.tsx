@@ -18,7 +18,7 @@ const LayoutAnimation = () => {
                         exit={{ opacity: 0 , scale: 0.9}}
                         transition = {{ duration: 0.3}}
                         onClick={() => setisOpen(!isOpen)}
-                        className='px-6 py-3 bg-white text-black rounded-lg shadow-md'>
+                        className='px-6 py-3 cursor-pointer bg-white text-black rounded-lg shadow-md'>
                             Open Panel
                         </m.button>
                     )
